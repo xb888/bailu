@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../skins/square/_all.css"/>
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/icheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-red',
+                radioClass: 'iradio_square-purple'
+            });
+        });
+    </script>
+</head>
+<body>
+
+square(方形)的各种色值的input的效果 <br/><br/>
+<input type="checkbox">
+<input type="checkbox" checked>
+
+<input type="radio" name="iCheck">
+<input type="radio" name="iCheck" checked>
+
+</body>
+</html>
